@@ -1,0 +1,26 @@
+/* CSS Variables */
+
+/* Colors used throughout the website */
+
+:root {
+  /* standard colors */
+  --black: #000000;
+  --white: #ffffff;
+  --underground-red: #e32119;
+  --underground-blue: #003889;
+
+  /* london underground line colors */
+
+  --district: #00843d;
+  --bakerloo: #b0600f;
+  --central: #ee2e22;
+  --circle: #ffd104;
+  --hammersmith: #f386a0;
+  --jubilee: #959ca1;
+  --metropolitan: #97025f;
+  --northern: #231f20;
+  --piccadily: #1b3f94;
+  --victoria: #069ddc;
+  --waterloo: #84cdbc;
+  --elizabeth: #fff;
+}
