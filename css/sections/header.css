@@ -1,9 +1,17 @@
 header {
   grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-
+header article > div {
+  display: flex;
+  justify-content: center;
+}
 /* date form */
-
+#form-date {
+  margin-top: 1rem;
+}
 #form-date input {
   background-color: var(--gray);
   padding: 0.75rem 1.5rem;
@@ -13,6 +21,7 @@ header {
 
 #button-help {
   display: flex;
+  margin-top: 1rem;
 }
 
 #button-help p {
