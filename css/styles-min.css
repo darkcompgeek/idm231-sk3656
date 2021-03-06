@@ -299,7 +299,7 @@ template {
   --piccadily: #1b3f94;
   --victoria: #069ddc;
   --waterloo: #84cdbc;
-  --elizabeth: #fff;
+  --elizabeth: #753dbd;
 }
 /* Base CSS */
 /* Common, site-wide CSS should go here */
@@ -325,6 +325,7 @@ ul {
 ul li {
   list-style: none;
 }
+/* Sections CSS */
 body {
   background-color: gainsboro;
 }

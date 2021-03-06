@@ -77,6 +77,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/sections\/zodiac-list.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/sections\/zodiac-list-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/styles-min.css" : {
       "aP" : 1,
       "bl" : 0,

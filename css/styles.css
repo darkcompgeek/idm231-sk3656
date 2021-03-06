@@ -3,6 +3,9 @@
 @import "base/variables.css";
 @import "base/base.css";
 
+/* Sections CSS */
+@import "sections/zodiac-list.css";
+
 body {
   background-color: gainsboro;
 }
