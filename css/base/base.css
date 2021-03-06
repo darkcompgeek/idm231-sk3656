@@ -3,8 +3,6 @@
 
 html {
   min-height: 100vh;
-  font-family: "Gotham-Book", sans-serif;
-  background-color: var(--gray);
   font-size: 100%;
 }
 * {
@@ -15,7 +13,10 @@ figure img {
   margin: 0;
   width: 100%;
 }
-
+svg {
+  padding: 0;
+  margin: 0;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -23,4 +24,40 @@ ul {
 }
 ul li {
   list-style: none;
+}
+
+button,
+input {
+  border-radius: 100px;
+  outline: none;
+  border: none;
+}
+button {
+  padding: 0px 12px;
+}
+
+/* grid system */
+
+body {
+  display: grid;
+  grid-template-columns: auto 1280px auto;
+  grid-template-areas: ". main-content .";
+}
+body > div {
+  grid-area: main-content;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+}
+
+main > div {
+  display: grid;
+  grid-template-columns: auto 40% 30% auto;
+  grid-template-areas: ". header zodiacs .";
+  align-items: center;
 }

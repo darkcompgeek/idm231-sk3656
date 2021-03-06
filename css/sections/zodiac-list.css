@@ -1,4 +1,12 @@
-/* Assigning border color to zodiac buttons based on their respective lines. */
+#zodiac-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#zodiacs {
+  grid-area: zodiacs;
+}
+/* zodiac buttons */
 
 .button-zodiac {
   background-color: var(--white);
@@ -8,7 +16,7 @@
   /* line-specific border */
   box-shadow: 0px 0px 0px 8px;
   padding: 10px;
-  margin: 20px;
+  margin: 5px;
 }
 
 #button-aquarius {

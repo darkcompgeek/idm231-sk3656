@@ -1,0 +1,20 @@
+header {
+  grid-area: header;
+}
+
+/* date form */
+
+#form-date input {
+  background-color: var(--gray);
+  padding: 0.75rem 1.5rem;
+}
+
+/* help button */
+
+#button-help {
+  display: flex;
+}
+
+#button-help p {
+  margin-left: 10px;
+}

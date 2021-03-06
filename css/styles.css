@@ -4,4 +4,5 @@
 @import "base/base.css";
 
 /* Sections CSS */
+@import "sections/header.css";
 @import "sections/zodiac-list.css";

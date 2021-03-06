@@ -10,60 +10,63 @@
 </head>
 
 <body>
-
-    <section>
-        <img src="img/logo.svg" alt="London Underground Zodiac Logo">
-        <form>
-            <input type="date" name="birthday" id="input-date">
-        </form>
-        <button>
-            <img src="img/help.svg" alt="Question Mark">
-            <p>Help</p>
-        </button>
-    </section>
-
-    <section>
-        <ul>
-            <li>
-                <button class="button-zodiac" id="button-aquarius"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-pisces"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-aries"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-taurus"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-gemini"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-cancer"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-leo"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-virgo"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-libra"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-scorpio"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-saggitarius"></button>
-            </li>
-            <li>
-                <button class="button-zodiac" id="button-capricorn"></button>
-            </li>
-        </ul>
-
-
-    </section>
+    <div>
+        <main>
+            <div>
+                <header>
+                    <img src="img/logo.svg" alt="London Underground Zodiac Logo">
+                    <form id="form-date">
+                        <input type="date" name="birthday" id="input-date">
+                        <button id="button-submit">Go</button>
+                    </form>
+                    <button id="button-help">
+                        <img src="img/help.svg" alt="Question Mark">
+                        <p>Help</p>
+                    </button>
+                </header>
+                <section id="zodiacs">
+                    <ul id="zodiac-list">
+                        <li>
+                            <button class="button-zodiac" id="button-aquarius"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-pisces"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-aries"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-taurus"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-gemini"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-cancer"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-leo"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-virgo"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-libra"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-scorpio"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-saggitarius"></button>
+                        </li>
+                        <li>
+                            <button class="button-zodiac" id="button-capricorn"></button>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
 
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
