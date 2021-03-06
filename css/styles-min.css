@@ -296,7 +296,7 @@ template {
   --jubilee: #959ca1;
   --metropolitan: #97025f;
   --northern: #231f20;
-  --piccadily: #1b3f94;
+  --piccadilly: #1b3f94;
   --victoria: #069ddc;
   --waterloo: #84cdbc;
   --elizabeth: #753dbd;
@@ -326,6 +326,50 @@ ul li {
   list-style: none;
 }
 /* Sections CSS */
-body {
-  background-color: gainsboro;
+/* Assigning border color to zodiac buttons based on their respective lines. */
+.button-zodiac {
+  background-color: var(--white);
+  /* shared black border */
+  border: 5px solid var(--black);
+  border-radius: 100px;
+  /* line-specific border */
+  box-shadow: 0px 0px 0px 8px;
+  padding: 10px;
+  margin: 20px;
+}
+#button-aquarius {
+  color: var(--district);
+}
+#button-pisces {
+  color: var(--bakerloo);
+}
+#button-aries {
+  color: var(--central);
+}
+#button-taurus {
+  color: var(--circle);
+}
+#button-gemini {
+  color: var(--hammersmith);
+}
+#button-cancer {
+  color: var(--jubilee);
+}
+#button-leo {
+  color: var(--metropolitan);
+}
+#button-virgo {
+  color: var(--northern);
+}
+#button-libra {
+  color: var(--piccadilly);
+}
+#button-scorpio {
+  color: var(--victoria);
+}
+#button-saggitarius {
+  color: var(--waterloo);
+}
+#button-capricorn {
+  color: var(--elizabeth);
 }
