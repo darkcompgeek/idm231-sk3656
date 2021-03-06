@@ -41,6 +41,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/base\/normalize-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/base\/normalize-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/base\/normalize.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -50,6 +62,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/base\/normalize-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/base\/variables.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/base\/variables-min.css",
       "oF" : 0,
       "pg" : 0
     },
