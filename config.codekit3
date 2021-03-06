@@ -17,6 +17,18 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/css\/base.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/base-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/styles-min.css" : {
       "aP" : 1,
       "bl" : 0,
