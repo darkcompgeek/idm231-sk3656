@@ -65,6 +65,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/base\/typography.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/base\/typography-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/base\/variables.css" : {
       "aP" : 1,
       "bl" : 0,

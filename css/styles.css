@@ -2,6 +2,7 @@
 @import "base/normalize.css";
 @import "base/variables.css";
 @import "base/base.css";
+@import "base/typography.css";
 
 /* Sections CSS */
 @import "sections/header.css";

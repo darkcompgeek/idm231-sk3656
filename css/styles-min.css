@@ -346,8 +346,11 @@ body {
 body > div {
   grid-area: main-content;
   height: 100vh;
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
 }
 main {
@@ -357,17 +360,23 @@ main > div {
   display: grid;
   grid-template-columns: auto 40% 30% auto;
   grid-template-areas: ". header zodiacs .";
+  -webkit-align-items: center;
   align-items: center;
 }
 /* Sections CSS */
 header {
   grid-area: header;
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-content: center;
   align-content: center;
 }
 header article > div {
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 /* date form */
@@ -380,6 +389,7 @@ header article > div {
 }
 /* help button */
 #button-help {
+  display: -webkit-flex;
   display: flex;
   margin-top: 1rem;
 }
