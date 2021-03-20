@@ -17,6 +17,102 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/audio\/bakerloo.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/bakerloo.mp3",
+      "oF" : 0
+    },
+    "\/audio\/central.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/central.mp3",
+      "oF" : 0
+    },
+    "\/audio\/circle.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/circle.mp3",
+      "oF" : 0
+    },
+    "\/audio\/district.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/district.mp3",
+      "oF" : 0
+    },
+    "\/audio\/elizabeth.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/elizabeth.mp3",
+      "oF" : 0
+    },
+    "\/audio\/hammersmith.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/hammersmith.mp3",
+      "oF" : 0
+    },
+    "\/audio\/jubilee.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/jubilee.mp3",
+      "oF" : 0
+    },
+    "\/audio\/metropolitan.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/metropolitan.mp3",
+      "oF" : 0
+    },
+    "\/audio\/northern.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/northern.mp3",
+      "oF" : 0
+    },
+    "\/audio\/piccadilly.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/piccadilly.mp3",
+      "oF" : 0
+    },
+    "\/audio\/victoria.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/victoria.mp3",
+      "oF" : 0
+    },
+    "\/audio\/waterloo.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/audio\/waterloo.mp3",
+      "oF" : 0
+    },
     "\/css\/base\/base-min.css" : {
       "aP" : 1,
       "bl" : 0,
