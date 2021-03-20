@@ -72,7 +72,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "January 20th through February 18th";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You're popular and charming. People seem to love you. You have excellent speaking skills</p>";
 
       _modalHeader.style.borderColor = "#00843d";
       // Show hide modal
@@ -85,7 +86,7 @@ function CalculateZodiac(whichOne) {
       _modalDateRangeText.innerHTML = "February 19th through March 20th";
       // display description
       _modalDescriptionText.innerHTML =
-        "<p>Pisces are cool, they swim in water.</p>";
+        "<p>You're a little old and rickety. You should probably exercise and improve yourself.</p>";
 
       _modalHeader.style.borderColor = "#b0600f";
       // Show hide modal
@@ -97,7 +98,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "March 21st through April 19th";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You have a lot of heart, and are very energetic. However, you tend to get really heated when something bothers you.</p>";
 
       _modalHeader.style.borderColor = "#ee2e22";
       // Show hide modal
@@ -109,7 +111,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "April 20th through May 20th";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You like routine and structure in your life.</p>";
 
       _modalHeader.style.borderColor = "#ffd104";
       // Show hide modal
@@ -121,7 +124,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "May 21st through June 20th";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You have a knack for taking things apart and figuring out how they work.</p>";
 
       _modalHeader.style.borderColor = "#f386a0";
       // Show hide modal
@@ -133,7 +137,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "June 21st through July 22nd";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You like to celebrate every milestone with elegance and poise. It's always nice to celebrate the small wins in life.</p>";
 
       _modalHeader.style.borderColor = "#959ca1";
       // Show hide modal
@@ -145,7 +150,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "July 23rd through August 22nd";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "You're wise beyond your years. You have a certain charm to your mannerisms";
 
       _modalHeader.style.borderColor = "#97025f";
       // Show hide modal
@@ -157,7 +163,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "August 23rd through September 22nd";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Scorpio are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You're dark and mysterious. People never know what they're going to get with you.</p>";
 
       _modalHeader.style.borderColor = "#231f20";
       // Show hide modal
@@ -326,7 +333,8 @@ _helpButton.addEventListener("click", function () {
   _modalDateRangeText.innerHTML =
     "Want to learn what London Underground line you are?";
   // display description
-  _modalDescriptionText.innerHTML = "awersome!";
+  _modalDescriptionText.innerHTML =
+    "You've come to the right place! Enter your birthday and click the submit button to see your result! Alternatively, you can click any of the dots on the right side to view the result for that specific London Underground Line.";
 
   _modalHeader.style.borderColor = "#e32119";
   // Show hide modal
