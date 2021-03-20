@@ -114,6 +114,7 @@ main > div {
 
 #modal-description {
   padding: 0.5rem 2rem;
+}
 #modal-header {
   padding: 0.5rem 2rem;
   border-bottom: 12px var(--elizabeth) solid;

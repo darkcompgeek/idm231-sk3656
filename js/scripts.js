@@ -316,6 +316,17 @@ _submitButton.addEventListener("click", function () {
 //click event listener for help button
 _helpButton.addEventListener("click", function () {
   console.log("Help Button Clicked");
+
+  // display title
+  _modalHeaderText.innerHTML = "Welcome!";
+  // display date range
+  _modalDateRangeText.innerHTML =
+    "Want to learn what London Underground line you are?";
+  // display description
+  _modalDescriptionText.innerHTML = "awersome!";
+
+  _modalHeader.style.borderColor = "#e32119";
+  // Show hide modal
   ShowModal();
 });
 
