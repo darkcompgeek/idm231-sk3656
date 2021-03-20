@@ -1,4 +1,8 @@
-console.log("Hello world");
+/*
+VARIABLE FOR MODAL
+*/
+
+const _modal = document.getElementById("modal");
 
 /*
 VARIABLES FOR FORM BUTTONS
@@ -38,23 +42,32 @@ const _saggitariusButton = document.getElementById("button-saggitarius");
 const _capricornButton = document.getElementById("button-capricorn");
 
 /*
+FUNCTIONS
+*/
+
+function ShowModal() {
+  _modal.hidden = !_modal.hidden;
+}
+
+/*
 EVENT LISTENERS FOR FORM BUTTONS
 */
 
 //click event listener for submit button
 _submitButton.addEventListener("click", function () {
-  console.log("Submit Button Clicked");
+  ShowModal();
 });
 //click event listener for help button
 _helpButton.addEventListener("click", function () {
   console.log("Help Button Clicked");
+  ShowModal();
 });
 
 /*
 EVENT LISTENERS FOR ZODIAC BUTTONS
 */
 
-//click event listener for submit button
+//click event listener for aquarius button
 _aquariusButton.addEventListener("click", function () {
   console.log("Aquarius Button Clicked");
 });
