@@ -169,7 +169,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "September 23rd through October 22nd";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "You're the definition of reliable, even if there are some hiccups now and then. You take your time and get the job done.";
 
       _modalHeader.style.borderColor = "#1b3f94";
       // Show hide modal
@@ -181,7 +182,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "October 23rd through November 21st";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "You come from a family of high prestige. You carry the blood of royalty. You're destined for great things.";
 
       _modalHeader.style.borderColor = "#069ddc";
       // Show hide modal
@@ -193,7 +195,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "November 22nd through December 21st";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML =
+        "<p>You're short and sweet. You like to keep it simple. Two stops is all you need. Why have any more?</p>";
 
       _modalHeader.style.borderColor = "#84cdbc";
       // Show hide modal
@@ -205,7 +208,8 @@ function CalculateZodiac(whichOne) {
       // display date range
       _modalDateRangeText.innerHTML = "December 22nd through January 19th";
       // display description
-      _modalDescriptionText.innerHTML = "You're innovative and bold.";
+      _modalDescriptionText.innerHTML =
+        "You're innovative and bold. You love to work on yourself and improve all of the time. Although you may take longer than expected to get things done, you always make up for that delay in quality.";
 
       _modalHeader.style.borderColor = "#753dbd";
       // Show hide modal
@@ -223,14 +227,14 @@ function CalculateZodiac(whichOne) {
 _closeModalButton.addEventListener("click", ShowModal);
 
 /*
-                           EVENT LISTENERS FOR FORM BUTTONS
-                           */
+EVENT LISTENERS FOR FORM BUTTONS
+*/
 
 //click event listener for submit button
 _submitButton.addEventListener("click", function () {
   // Get the user first name and store it in a variable
-  const firstName = document.getElementById("input-name").value;
-  console.log("userFirstName is: " + firstName);
+  //   const firstName = document.getElementById("input-name").value;
+  //   console.log("userFirstName is: " + firstName);
 
   // Get the user date and extract the month of year and day of month
   const userBday = new Date(document.getElementById("input-date").value);
