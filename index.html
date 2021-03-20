@@ -17,12 +17,13 @@
             <div>
                 <article id="modal" hidden>
                     <div id="modal-content">
-                        <section>
-                            <h1>[ZODIAC SIGN]</h1>
-                            <button id="button-closeModal">Close</button>
+                        <section id="modal-header">
+                            <h1 id="modal-header-text">[ZODIAC SIGN]</h1>
+                            <button id="button-closeModal">X</button>
                         </section>
-                        <section>
-                            <p>This is the test modal</p>
+                        <section id="modal-description">
+                            <p id="modal-dateRange-text">dsfgsd</p>
+                            <p id="modal-Description-text">This is the test modal</p>
                         </section>
                     </div>
                     <div id="modal-blanket"></div>
@@ -34,8 +35,11 @@
                         </figure>
                         <article>
                             <form id="form-date">
-                                <input type="date" name="birthday" id="input-date">
-                                <button id="button-submit">Go</button>
+                                <input type="text" placeholder="First Name" name="name" id="input-name">
+                                <section>
+                                    <input type="date" name="birthday" id="input-date">
+                                    <button id="button-submit">Go</button>
+                                </section>
                             </form>
                             <div>
                                 <button id="button-help">

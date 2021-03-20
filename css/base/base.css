@@ -79,7 +79,6 @@ main > div {
   top: 0;
   left: 0;
   z-index: 99;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,8 +88,8 @@ main > div {
 #modal-content {
   background-color: #fff;
 
-  height: 800px;
-  width: 1000px;
+  height: 500px;
+  width: 750px;
 
   position: relative;
   z-index: 101;
@@ -111,4 +110,14 @@ main > div {
   top: 0;
   left: 0;
   z-index: 100;
+}
+
+#modal-description {
+  padding: 0.5rem 2rem;
+#modal-header {
+  padding: 0.5rem 2rem;
+  border-bottom: 12px var(--elizabeth) solid;
+}
+#button-closeModal {
+  background-color: var(--white);
 }

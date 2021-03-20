@@ -12,10 +12,14 @@ header article > div {
 #form-date {
   margin-top: 1rem;
   background-color: var(--gray);
-  border-radius: 100px;
+  border-radius: 25px;
+}
+
+#form-date section {
   display: flex;
   justify-content: space-between;
 }
+
 #form-date input {
   background-color: var(--gray);
   padding: 1rem 0 1rem 1.5rem;
