@@ -70,7 +70,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "District Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "January 20th through February 18th";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -82,7 +82,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Bakerloo Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "February 19th through March 20th";
       // display description
       _modalDescriptionText.innerHTML =
         "<p>Pisces are cool, they swim in water.</p>";
@@ -95,7 +95,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Central Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "March 21st through April 19th";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -107,7 +107,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Circle Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "April 20th through May 20th";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -119,7 +119,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Hammersmith & City Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "May 21st through June 20th";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -131,7 +131,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Jubilee Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "June 21st through July 22nd";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -143,7 +143,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Metropolitan Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "July 23rd through August 22nd";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -155,7 +155,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Northern Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "August 23rd through September 22nd";
       // display description
       _modalDescriptionText.innerHTML = "<p>Scorpio are .....</p>";
 
@@ -167,7 +167,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Piccadilly Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "September 23rd through October 22nd";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -179,7 +179,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Victoria Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "October 23rd through November 21st";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -191,7 +191,7 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Waterloo & City Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "November 22nd through December 21st";
       // display description
       _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
 
@@ -203,9 +203,9 @@ function CalculateZodiac(whichOne) {
       // display title
       _modalHeaderText.innerHTML = "Elizabeth Line";
       // display date range
-      _modalDateRangeText.innerHTML = "##-Month to ##-Month";
+      _modalDateRangeText.innerHTML = "December 22nd through January 19th";
       // display description
-      _modalDescriptionText.innerHTML = "<p>Aquarius are .....</p>";
+      _modalDescriptionText.innerHTML = "You're innovative and bold.";
 
       _modalHeader.style.borderColor = "#753dbd";
       // Show hide modal
@@ -311,7 +311,6 @@ _submitButton.addEventListener("click", function () {
   console.log("AstroSign is: " + zodiacSign);
 
   CalculateZodiac(zodiacSign);
-  ShowModal();
 });
 //click event listener for help button
 _helpButton.addEventListener("click", function () {

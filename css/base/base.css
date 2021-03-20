@@ -112,12 +112,15 @@ main > div {
   z-index: 100;
 }
 
+#modal-dateRange-text {
+  font-size: 1.5rem;
+}
 #modal-description {
   padding: 0.5rem 2rem;
 }
 #modal-header {
   padding: 0.5rem 2rem;
-  border-bottom: 12px var(--elizabeth) solid;
+  border-bottom: 7.5px var(--elizabeth) solid;
 }
 #button-closeModal {
   background-color: var(--white);
