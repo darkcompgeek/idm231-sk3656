@@ -12,21 +12,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="ShowModal();">
+    <!-- audio files -->
+    <audio src="audio/bakerloo.mp3" preload="auto" id="bakerlooSound"></audio>
+    <audio src="audio/central.mp3" preload="auto" id="centralSound"></audio>
+    <audio src="audio/circle.mp3" preload="auto" id="circleSound"></audio>
+    <audio src="audio/district.mp3" preload="auto" id="districtSound"></audio>
+    <audio src="audio/elizabeth.mp3" preload="auto" id="elizabethSound"></audio>
+    <audio src="audio/hammersmith.mp3" preload="auto" id="hammersmithSound"></audio>
+    <audio src="audio/jubilee.mp3" preload="auto" id="jubileeSound"></audio>
+    <audio src="audio/metropolitan.mp3" preload="auto" id="metropolitanSound"></audio>
+    <audio src="audio/northern.mp3" preload="auto" id="northernSound"></audio>
+    <audio src="audio/piccadilly.mp3" preload="auto" id="piccadillySound"></audio>
+    <audio src="audio/victoria.mp3" preload="auto" id="victoriaSound"></audio>
+    <audio src="audio/waterloo.mp3" preload="auto" id="waterlooSound"></audio>
+
     <div>
         <main>
             <div>
                 <article id="modal" hidden>
                     <div id="modal-content">
                         <section id="modal-header">
-                            <h1 id="modal-header-text">[ZODIAC SIGN]</h1>
+                            <h1 id="modal-header-text">Welcome!</h1>
                             <button id="button-closeModal"><span class="material-icons">
                                     close
                                 </span></button>
                         </section>
                         <section id="modal-description">
-                            <p id="modal-dateRange-text">dsfgsd</p>
-                            <p id="modal-Description-text">This is the test modal</p>
+                            <p id="modal-dateRange-text">Want to learn what London Underground line you are?</p>
+                            <p id="modal-Description-text">You've come to the right place! Enter your birthday and click
+                                the submit button to see your result! Alternatively, you can click any of the dots on
+                                the right side to view the result for that specific London Underground line.</p>
                         </section>
                     </div>
                     <div id="modal-blanket"></div>

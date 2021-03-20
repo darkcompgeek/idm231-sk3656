@@ -1,4 +1,20 @@
 /*
+VARIABLES FOR SOUNDS
+*/
+const _bakerlooSound = document.getElementById("bakerlooSound");
+const _centralSound = document.getElementById("centralSound");
+const _circleSound = document.getElementById("circleSound");
+const _districtSound = document.getElementById("districtSound");
+const _elizabethSound = document.getElementById("elizabethSound");
+const _hammersmithSound = document.getElementById("hammersmithSound");
+const _jubileeSound = document.getElementById("jubileeSound");
+const _metropolitanSound = document.getElementById("metropolitanSound");
+const _northernSound = document.getElementById("northernSound");
+const _piccadillySound = document.getElementById("piccadillySound");
+const _victoriaSound = document.getElementById("victoriaSound");
+const _waterlooSound = document.getElementById("waterlooSound");
+
+/*
 VARIABLES FOR MODAL
 */
 const _modalHeader = document.getElementById("modal-header");
@@ -63,6 +79,33 @@ function ShowModal() {
   _modal.hidden = !_modal.hidden;
 }
 
+function StopAllAudio() {
+  _bakerlooSound.pause();
+  _bakerlooSound.currentTime = 0;
+  _centralSound.pause();
+  _centralSound.currentTime = 0;
+  _circleSound.pause();
+  _circleSound.currentTime = 0;
+  _districtSound.pause();
+  _districtSound.currentTime = 0;
+  _elizabethSound.pause();
+  _elizabethSound.currentTime = 0;
+  _hammersmithSound.pause();
+  _hammersmithSound.currentTime = 0;
+  _jubileeSound.pause();
+  _jubileeSound.currentTime = 0;
+  _metropolitanSound.pause();
+  _metropolitanSound.currentTime = 0;
+  _northernSound.pause();
+  _northernSound.currentTime = 0;
+  _piccadillySound.pause();
+  _piccadillySound.currentTime = 0;
+  _victoriaSound.pause();
+  _victoriaSound.currentTime = 0;
+  _waterlooSound.pause();
+  _waterlooSound.currentTime = 0;
+}
+
 function CalculateZodiac(whichOne) {
   console.log("userPicked called " + whichOne);
   switch (whichOne) {
@@ -78,6 +121,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#00843d";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _districtSound.play();
       break;
     case "pis":
       // display title
@@ -91,6 +136,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#b0600f";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _bakerlooSound.play();
       break;
     case "ari":
       // display title
@@ -104,6 +151,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#ee2e22";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _centralSound.play();
       break;
     case "tau":
       // display title
@@ -117,6 +166,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#ffd104";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _circleSound.play();
       break;
     case "gem":
       // display title
@@ -130,6 +181,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#f386a0";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _hammersmithSound.play();
       break;
     case "can":
       // display title
@@ -143,6 +196,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#959ca1";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _jubileeSound.play();
       break;
     case "leo":
       // display title
@@ -156,6 +211,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#97025f";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _metropolitanSound.play();
       break;
     case "vir":
       // display title
@@ -169,6 +226,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#231f20";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _northernSound.play();
       break;
     case "lib":
       // display title
@@ -182,6 +241,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#1b3f94";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _piccadillySound.play();
       break;
     case "sco":
       // display title
@@ -195,6 +256,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#069ddc";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _victoriaSound.play();
       break;
     case "sag":
       // display title
@@ -208,6 +271,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#84cdbc";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _waterlooSound.play();
       break;
     case "cap":
       // display title
@@ -221,6 +286,8 @@ function CalculateZodiac(whichOne) {
       _modalHeader.style.borderColor = "#753dbd";
       // Show hide modal
       ShowModal();
+      StopAllAudio();
+      _elizabethSound.play();
       break;
     default:
       console.log("default value tripped");
@@ -231,7 +298,10 @@ function CalculateZodiac(whichOne) {
                             EVENT LISTENERS FOR MODAL BUTTONS
                             */
 
-_closeModalButton.addEventListener("click", ShowModal);
+_closeModalButton.addEventListener("click", function () {
+  ShowModal();
+  StopAllAudio();
+});
 
 /*
 EVENT LISTENERS FOR FORM BUTTONS

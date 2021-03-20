@@ -127,7 +127,7 @@ main > div {
 }
 #modal-header {
   padding: 0.5rem 2rem;
-  border-bottom: 7.5px var(--elizabeth) solid;
+  border-bottom: 7.5px var(--underground-red) solid;
 }
 #button-closeModal {
   background-color: var(--white);
