@@ -1,8 +1,11 @@
 /*
-VARIABLE FOR MODAL
+VARIABLES FOR MODAL
 */
 
+//handle for the modal itself
 const _modal = document.getElementById("modal");
+//handle for close modal button
+const _closeModalButton = document.getElementById("button-closeModal");
 
 /*
 VARIABLES FOR FORM BUTTONS
@@ -48,6 +51,12 @@ FUNCTIONS
 function ShowModal() {
   _modal.hidden = !_modal.hidden;
 }
+
+/*
+EVENT LISTENERS FOR MODAL BUTTONS
+*/
+
+_closeModalButton.addEventListener("click", ShowModal);
 
 /*
 EVENT LISTENERS FOR FORM BUTTONS
